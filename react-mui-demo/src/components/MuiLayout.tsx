@@ -2,6 +2,7 @@ import { Box, Stack, Grid, Paper } from '@mui/material'
 
 export const MuiLayout = () => {
   return (
+      // Set the body tag in App.css to background-color: white
     <Paper sx={{ padding: '32px' }} elevation={2}>
       <Stack border='1px solid' spacing={2} direction='row'>
         <Box
@@ -26,24 +27,34 @@ export const MuiLayout = () => {
           p={2}></Box>
       </Stack>
       <Grid rowSpacing={2} columnSpacing={1} container my={4}>
-        <Grid item xs={6}>
+        <Grid item xs>
           <Box p={2} bgcolor='primary.light'>
             Item 1
           </Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs>
           <Box p={2} bgcolor='primary.light'>
             Item 2
           </Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs>
           <Box p={2} bgcolor='primary.light'>
             Item 3
           </Box>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs>
           <Box p={2} bgcolor='primary.light'>
             Item 4
+          </Box>
+        </Grid>
+        <Grid item xs>
+          <Box p={2} bgcolor='primary.light'>
+            Item 5
+          </Box>
+        </Grid>
+        <Grid item xs>
+          <Box p={2} bgcolor='primary.light'>
+            Item 6
           </Box>
         </Grid>
       </Grid>

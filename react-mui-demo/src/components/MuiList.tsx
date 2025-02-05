@@ -3,6 +3,7 @@ import {
   List,
   ListItem,
   ListItemText,
+    Stack,
   ListItemButton,
   ListItemIcon,
   Divider,
@@ -11,9 +12,22 @@ import {
 } from '@mui/material'
 import InboxIcon from '@mui/icons-material/Inbox'
 
+// Set the body tag in App.css to background-color: #eeeeee
 export const MuiList = () => {
   return (
-    <Box sx={{ width: '400px', bgcolor: '#efefef' }}>
+    <Stack sx={{ width: '400px', bgcolor: '#efefef' }} spacing={2}>
+      {/*First <List> is the one at the start of the video*/}
+      <List>
+        <ListItem>
+          <ListItemText primary='Jane Doe' />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary='Fred Smith' />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary='Raquel Welch' />
+        </ListItem>
+      </List>
       <List>
         <ListItem disablePadding>
           <ListItemButton>
@@ -36,6 +50,6 @@ export const MuiList = () => {
           <ListItemText primary='List item 3' />
         </ListItem>
       </List>
-    </Box>
+    </Stack>
   )
 }

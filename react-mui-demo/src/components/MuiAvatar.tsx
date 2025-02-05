@@ -7,7 +7,7 @@ export const MuiAvatar = () => {
         <Avatar sx={{ bgcolor: 'success.light' }}>CK</Avatar>
       </Stack>
       <Stack direction='row' spacing={1}>
-        <AvatarGroup max={3}>
+        <AvatarGroup max={5}>
           <Avatar sx={{ bgcolor: 'primary.light' }}>BW</Avatar>
           <Avatar sx={{ bgcolor: 'success.light' }}>CK</Avatar>
           <Avatar

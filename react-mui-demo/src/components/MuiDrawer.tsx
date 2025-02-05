@@ -19,6 +19,7 @@ export const MuiDrawer = () => {
         anchor='left'
         open={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}>
+          {/*I don't think the Box role property does anything*/}
         <Box p={2} width='250px' role='presentation' textAlign='center'>
           <Typography variant='h6' component='div'>
             Side Panel

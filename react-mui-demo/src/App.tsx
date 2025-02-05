@@ -22,12 +22,11 @@ import { MuiCustomTheme } from './components/MuiCustomTheme'
 // import { MuiLink } from './components/MuiLink'
 // import { MuiBreadcrumbs } from './components/MuiBreadcrumbs'
 // import { MuiDrawer } from './components/MuiDrawer'
-// import { MuiTabs } from './components/MuiTabs'
 // import { MuiSpeedDial } from './components/MuiSpeedDial'
 // import { MuiBottomNavigation } from './components/MuiBottomNavigation'
 // import { MuiAvatar } from './components/MuiAvatar'
 // import { MuiBadge } from './components/MuiBadge'
-// import { MuiList } from './components/MuiList'
+import { MuiList } from './components/MuiList'
 // import { MuiChip } from './components/MuiChip'
 // import { MuiTooltip } from './components/MuiTooltip'
 // import { MuiAlert } from './components/MuiAlert'
@@ -38,6 +37,7 @@ import { MuiCustomTheme } from './components/MuiCustomTheme'
 // import { MuiLoadingButton } from './components/MuiLoadingButton'
 // import { MuiDateTimePicker } from './components/MuiDateTimePicker'
 // import { MuiDateRangePicker } from './components/MuiDateRangePicker'
+// import { MuiTabs } from './components/MuiTabs'
 // import { MuiTimeline } from './components/MuiTimeline'
 // import { MuiMasonry } from './components/MuiMasonry'
 
@@ -62,28 +62,28 @@ function App() {
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <div className='App'>
           {/* <MuiTypography /> */}
-          {/* <MuiButton /> */}
-          {/* <MuiTextField /> */}
-          {/* <MuiSelect /> */}
-          {/* <MuiRadioButton /> */}
-          {/* <MuiCheckbox /> */}
-          {/* <MuiSwitch /> */}
-          {/* <MuiRating /> */}
-          {/* <MuiAutocomplete /> */}
-          {/* <MuiLayout /> */}
-          {/* <MuiCard /> */}
-          {/* <MuiAccordion /> */}
-          {/* <MuiImageList /> */}
-          {/* <MuiNavbar /> */}
-          {/* <MuiLink /> */}
-          {/* <MuiBreadcrumbs /> */}
-          {/* <MuiDrawer /> */}
-          {/* <MuiTabs /> */}
-          {/* <MuiSpeedDial /> */}
-          {/* <MuiBottomNavigation /> */}
-          {/* <MuiAvatar /> */}
-          {/* <MuiBadge /> */}
-          {/* <MuiList /> */}
+          {/* <MuiButton />*/}
+          {/* <MuiTextField />*/}
+          {/* <MuiSelect />*/}
+          {/* <MuiRadioButton />*/}
+          {/* <MuiCheckbox />*/}
+          {/* <MuiSwitch />*/}
+          {/* <MuiRating />*/}
+          {/* <MuiAutocomplete />*/}
+          {/* <MuiLayout />*/}
+          {/* <MuiCard />*/}
+          {/* <MuiAccordion />*/}
+          {/* <MuiImageList />*/}
+          {/* <MuiNavbar />*/}
+          {/* <MuiLink />*/}
+          {/* <MuiBreadcrumbs />*/}
+          {/* <MuiDrawer />*/}
+          {/*MuiTabs was skipped?*/}
+          {/* <MuiSpeedDial />*/}
+          {/* <MuiBottomNavigation />*/}
+          {/* <MuiAvatar />*/}
+          {/* <MuiBadge />*/}
+           <MuiList />
           {/* <MuiChip /> */}
           {/* <MuiTooltip /> */}
           {/* <MuiTable /> */}
@@ -95,9 +95,10 @@ function App() {
           {/* <MuiLoadingButton /> */}
           {/* <MuiDateTimePicker /> */}
           {/* <MuiDateRangePicker /> */}
+          {/*<MuiTabs />*/}
           {/* <MuiMasonry /> */}
           {/* <MuiTimeline /> */}
-          <MuiCustomTheme />
+          {/*<MuiCustomTheme />*/}
         </div>
       </LocalizationProvider>
     </ThemeProvider>
