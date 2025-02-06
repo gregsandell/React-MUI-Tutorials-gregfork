@@ -26,10 +26,11 @@ import { MuiCustomTheme } from './components/MuiCustomTheme'
 // import { MuiBottomNavigation } from './components/MuiBottomNavigation'
 // import { MuiAvatar } from './components/MuiAvatar'
 // import { MuiBadge } from './components/MuiBadge'
-import { MuiList } from './components/MuiList'
+// import { MuiList } from './components/MuiList'
 // import { MuiChip } from './components/MuiChip'
 // import { MuiTooltip } from './components/MuiTooltip'
-// import { MuiAlert } from './components/MuiAlert'
+// import { MuiTable } from './components/MuiTable'
+import { MuiAlert } from './components/MuiAlert'
 // import { MuiSnackbar } from './components/MuiSnackbar'
 // import { MuiDialog } from './components/MuiDialog'
 // import { MuiSkeleton } from './components/MuiSkeleton'
@@ -43,17 +44,17 @@ import { MuiList } from './components/MuiList'
 
 const theme = createTheme({
   status: {
-    danger: '#e53e3e'
+    danger: '#e53e3e',
   },
   palette: {
     secondary: {
-      main: colors.orange[500]
+      main: colors.orange[500],
     },
     neutral: {
       main: colors.grey[500],
-      darker: colors.grey[700]
-    }
-  }
+      darker: colors.grey[700],
+    },
+  },
 })
 
 function App() {
@@ -83,11 +84,11 @@ function App() {
           {/* <MuiBottomNavigation />*/}
           {/* <MuiAvatar />*/}
           {/* <MuiBadge />*/}
-           <MuiList />
-          {/* <MuiChip /> */}
-          {/* <MuiTooltip /> */}
-          {/* <MuiTable /> */}
-          {/* <MuiAlert /> */}
+          {/* <MuiList />*/}
+          {/* <MuiChip />*/}
+          {/* <MuiTooltip />*/}
+          {/* <MuiTable />*/}
+          <MuiAlert />
           {/* <MuiSnackbar /> */}
           {/* <MuiDialog /> */}
           {/* <MuiSkeleton /> */}

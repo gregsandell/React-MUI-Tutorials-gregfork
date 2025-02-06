@@ -4,7 +4,7 @@ import { useState } from 'react'
 export const MuiChip = () => {
   const [chips, setChips] = useState(['Chip 1', 'Chip 2', 'Chip 3'])
   const handleDelete = (chipToDelete: string) => {
-    setChips(chips => chips.filter(chip => chip !== chipToDelete))
+    setChips(prevChips => prevChips.filter(prevChip => prevChip !== chipToDelete))
   }
   return (
     <Stack direction='row' spacing={1}>

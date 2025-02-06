@@ -28,6 +28,7 @@ export const MuiList = () => {
           <ListItemText primary='Raquel Welch' />
         </ListItem>
       </List>
+      <Box sx={{ height: '100px', bgcolor: '#ffffff' }}></Box>
       <List>
         <ListItem disablePadding>
           <ListItemButton>

@@ -1,6 +1,9 @@
 import { Stack, Alert, AlertTitle, Button } from '@mui/material'
 import CheckIcon from '@mui/icons-material/Check'
+import {useState} from 'react'
+
 export const MuiAlert = () => {
+  const [isVisible, setIsVisible] = useState<boolean>(true)
   return (
     <Stack spacing={2}>
       <Alert severity='error' onClose={() => alert('Close alert')}>
@@ -12,16 +15,18 @@ export const MuiAlert = () => {
       <Alert severity='info'>
         <AlertTitle>Info</AlertTitle>This is an info alert
       </Alert>
-      <Alert
-        severity='success'
-        icon={<CheckIcon fontSize='inherit' />}
-        action={
-          <Button color='inherit' size='small'>
+      { isVisible && (
+        <Alert
+          severity='success'
+          icon={<CheckIcon fontSize='inherit' />}
+          action={
+            <Button color='inherit' size='small' onClick={() => { console.log('click'); setIsVisible(!isVisible)}} >
             UNDO
-          </Button>
-        }>
-        <AlertTitle>Success</AlertTitle>This is a success alert
-      </Alert>
+            </Button>
+          }>
+          <AlertTitle>Success</AlertTitle>This is a success alert
+        </Alert>
+      )}
       <Alert variant='outlined' severity='error'>
         This is an outlined error alert
       </Alert>
