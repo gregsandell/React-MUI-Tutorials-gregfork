@@ -19,7 +19,7 @@ export const MuiSkeleton = () => {
         />
       ) : (
         <img
-          src='https://source.unsplash.com/random/256x144'
+          src='https://images.unsplash.com/photo-1551963831-b3b1ca40c98e'
           alt='skeleton'
           width={256}
           height={144}
@@ -44,10 +44,10 @@ export const MuiSkeleton = () => {
         <Stack sx={{ width: '80%' }}>
           {loading ? (
             <>
-              <Typography variant='body1'>
+              <Typography variant='h6'>
                 <Skeleton variant='text' width='100%' animation='wave' />
               </Typography>
-              <Typography variant='body2'>
+              <Typography variant='h1'>
                 <Skeleton variant='text' width='100%' animation='wave' />
               </Typography>
             </>

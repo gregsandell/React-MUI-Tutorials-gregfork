@@ -6,7 +6,7 @@ import './App.css'
 import { MuiCustomTheme } from './components/MuiCustomTheme'
 
 // import { MuiTypography } from './components/MuiTypography'
-// import { MuiButton } from './components/MuiButton'
+import { MuiButton } from './components/MuiButton'
 // import { MuiTextField } from './components/MuiTextField'
 // import { MuiSelect } from './components/MuiSelect'
 // import { MuiRadioButton } from './components/MuiRadioButton'
@@ -30,11 +30,11 @@ import { MuiCustomTheme } from './components/MuiCustomTheme'
 // import { MuiChip } from './components/MuiChip'
 // import { MuiTooltip } from './components/MuiTooltip'
 // import { MuiTable } from './components/MuiTable'
-import { MuiAlert } from './components/MuiAlert'
+// import { MuiAlert } from './components/MuiAlert'
 // import { MuiSnackbar } from './components/MuiSnackbar'
 // import { MuiDialog } from './components/MuiDialog'
-// import { MuiSkeleton } from './components/MuiSkeleton'
 // import { MuiProgress } from './components/MuiProgress'
+// import { MuiSkeleton } from './components/MuiSkeleton'
 // import { MuiLoadingButton } from './components/MuiLoadingButton'
 // import { MuiDateTimePicker } from './components/MuiDateTimePicker'
 // import { MuiDateRangePicker } from './components/MuiDateRangePicker'
@@ -63,7 +63,7 @@ function App() {
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <div className='App'>
           {/* <MuiTypography /> */}
-          {/* <MuiButton />*/}
+          <MuiButton />
           {/* <MuiTextField />*/}
           {/* <MuiSelect />*/}
           {/* <MuiRadioButton />*/}
@@ -75,7 +75,7 @@ function App() {
           {/* <MuiCard />*/}
           {/* <MuiAccordion />*/}
           {/* <MuiImageList />*/}
-          {/* <MuiNavbar />*/}
+          {/*<MuiNavbar />*/}
           {/* <MuiLink />*/}
           {/* <MuiBreadcrumbs />*/}
           {/* <MuiDrawer />*/}
@@ -84,17 +84,17 @@ function App() {
           {/* <MuiBottomNavigation />*/}
           {/* <MuiAvatar />*/}
           {/* <MuiBadge />*/}
-          {/* <MuiList />*/}
+          {/*<MuiList />*/}
           {/* <MuiChip />*/}
           {/* <MuiTooltip />*/}
           {/* <MuiTable />*/}
-          <MuiAlert />
-          {/* <MuiSnackbar /> */}
-          {/* <MuiDialog /> */}
-          {/* <MuiSkeleton /> */}
-          {/* <MuiProgress /> */}
-          {/* <MuiLoadingButton /> */}
-          {/* <MuiDateTimePicker /> */}
+          {/*<MuiAlert />*/}
+          {/*<MuiSnackbar />*/}
+          {/*<MuiDialog /> */}
+          {/*<MuiProgress />*/}
+          {/*<MuiSkeleton /> */}
+          {/*<MuiLoadingButton />*/}
+          {/*<MuiDateTimePicker />*/}
           {/* <MuiDateRangePicker /> */}
           {/*<MuiTabs />*/}
           {/* <MuiMasonry /> */}
